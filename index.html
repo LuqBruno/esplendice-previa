@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Esplêndice — Clínica de Saúde em Tubarão/SC (prévia)</title>
+<meta name="description" content="Prévia conceitual de redesenho do site da Esplêndice Clínica de Saúde: consultas e exames cardiológicos em Tubarão/SC.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0B2E29">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F3D37'/%3E%3Cpath d='M8 36h12l4-9 6 18 5-14 3 5h18' fill='none' stroke='%238FD6C0' stroke-width='4' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/fachada-1600.webp" imagesrcset="assets/img/fachada-800.webp 800w, assets/img/fachada-1600.webp 1600w" imagesizes="(min-width: 960px) 46vw, 100vw">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="topo__in">
+    <a class="topo__logo" href="#inicio" aria-label="Esplêndice Clínica de Saúde — início">
+      <img src="assets/img/logo.webp" width="1081" height="184" alt="Esplêndice Clínica de Saúde">
+    </a>
+    <nav class="topo__nav" id="menu" aria-label="Principal">
+      <a href="#clinica">A clínica</a>
+      <a href="#exames">Exames</a>
+      <a href="#corpo-clinico">Corpo clínico</a>
+      <a href="#convenios">Convênios</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn--menta topo__cta" data-wa="consulta" href="https://wa.me/5548999364181" target="_blank" rel="noopener">Agendar</a>
+    </nav>
+    <button class="topo__menu" type="button" aria-controls="menu" aria-expanded="false">
+      <span class="sr">Abrir menu</span><i></i><i></i>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section class="hero" id="inicio" aria-labelledby="hero-titulo">
+  <div class="hero__grid">
+    <div class="hero__texto">
+      <p class="eyebrow eyebrow--claro">Cardiologia · Tubarão/SC</p>
+      <h1 id="hero-titulo" class="hero__titulo">Redefinindo o seu conceito de <em>saúde</em>.</h1>
+      <p class="hero__sub">Consultas e exames do coração com oito cardiologistas, num espaço pensado para receber você com calma e atenção.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--menta" data-wa="consulta" href="https://wa.me/5548999364181" target="_blank" rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a class="btn btn--linha" href="#exames">Conhecer os exames</a>
+      </div>
+      <p class="hero__fone">ou ligue <a href="tel:+554836266800">48 3626-6800</a></p>
+    </div>
+
+    <figure class="hero__foto">
+      <div class="hero__moldura">
+        <img src="assets/img/fachada-1600.webp" srcset="assets/img/fachada-800.webp 800w, assets/img/fachada-1600.webp 1600w" sizes="(min-width: 960px) 46vw, 100vw" width="1600" height="1600" alt="Fachada da Esplêndice no Ed. Bertoncini &amp; Don Braga, Rua Porto Alegre, 811" fetchpriority="high">
+      </div>
+      <figcaption>R. Porto Alegre, 811 · Vila Moema</figcaption>
+    </figure>
+  </div>
+
+  <div class="hero__traco" aria-hidden="true">
+    <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+      <path class="traco traco--base" id="tracoHero" d=""/>
+      <path class="traco traco--pulso" d=""/>
+    </svg>
+    <span class="hero__leitura">Seg a Sex · 08h–12h · 13h30–18h</span>
+  </div>
+</section>
+
+<!-- ATALHOS -->
+<nav class="atalhos" aria-label="Atalhos de agendamento">
+  <a class="atalho" data-wa="consulta" href="https://wa.me/5548999364181" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 40 40"><path d="M20 33s-12-7.4-12-15.4A6.6 6.6 0 0 1 20 13a6.6 6.6 0 0 1 12 4.6C32 25.6 20 33 20 33z"/><path d="M8 21h7l2-4 3 8 2-4h10"/></svg>
+    <span><b>Consultas</b><small>Cardiologia clínica com a equipe</small></span>
+    <i aria-hidden="true">→</i>
+  </a>
+  <a class="atalho" data-wa="exame" href="https://wa.me/5548999364181" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 40 40"><rect x="7" y="9" width="26" height="22" rx="3"/><path d="M11 22h5l2-6 3 10 2-4h6"/></svg>
+    <span><b>Agendar exame</b><small>ECG, MAPA, Holter, eco e mais</small></span>
+    <i aria-hidden="true">→</i>
+  </a>
+  <a class="atalho" data-wa="checkup" href="https://wa.me/5548999364181" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 40 40"><rect x="9" y="8" width="22" height="26" rx="3"/><path d="M15 8V6h10v2M14 21l4 4 8-9"/></svg>
+    <span><b>Check-up</b><small>Monte o seu com a recepção</small></span>
+    <i aria-hidden="true">→</i>
+  </a>
+</nav>
+
+<!-- A CLÍNICA -->
+<section class="clinica secao" id="clinica" aria-labelledby="clinica-titulo">
+  <div class="wrap clinica__grid">
+    <div class="clinica__abre">
+      <p class="eyebrow">A clínica</p>
+      <h2 id="clinica-titulo" class="titulo mascara"><span>Atendimento de excelência,</span> <span><em>próximo e acolhedor.</em></span></h2>
+      <p class="lead">Somos uma clínica médica com foco em proporcionar atendimento de excelência e humanizado, que zele pela qualidade de vida e pelo bem-estar de cada paciente.</p>
+    </div>
+    <div class="clinica__pilares">
+      <article class="pilar">
+        <h3>Missão</h3>
+        <p>Proporcionar cuidado humanizado e de excelência, com foco em promover qualidade de vida através do cuidado à saúde.</p>
+      </article>
+      <article class="pilar">
+        <h3>Visão</h3>
+        <p>Ser um modelo de referência em atendimentos resolutivos e de qualidade, sempre investindo em capacitação e atualização.</p>
+      </article>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <dl class="numeros">
+      <div><dt>cardiologistas no corpo clínico</dt><dd data-conta="8">8</dd></div>
+      <div><dt>exames cardiológicos na clínica</dt><dd data-conta="6">6</dd></div>
+      <div><dt>convênios, além de particular</dt><dd data-conta="10">10</dd></div>
+    </dl>
+    <div class="valores">
+      <h3 class="valores__titulo">Valores</h3>
+      <ul>
+        <li>Humanizada</li><li>Ética</li><li>Excelência</li><li>Respeito</li><li>Empatia</li>
+        <li>Qualidade</li><li>Disciplina</li><li>Inovação</li><li>Credibilidade</li><li>Honestidade</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divisor" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path class="traco" data-ecg="2" d=""/></svg></div>
+
+<!-- EXAMES -->
+<section class="exames secao" id="exames" aria-labelledby="exames-titulo">
+  <div class="wrap">
+    <div class="exames__topo">
+      <p class="eyebrow eyebrow--claro">Nossos exames</p>
+      <h2 id="exames-titulo" class="titulo titulo--claro mascara"><span>Exames que escutam</span> <span><em>o seu coração.</em></span></h2>
+      <p class="lead lead--claro">Seis exames realizados na própria clínica. Escolha um para ver como ele acompanha o coração.</p>
+    </div>
+
+    <div class="monitor">
+      <div class="monitor__abas" role="tablist" aria-label="Exames">
+        <button role="tab" id="aba-ecg" aria-controls="painel-exame" aria-selected="true" data-exame="ecg"><span class="cod">ECG</span>Eletrocardiograma</button>
+        <button role="tab" id="aba-mapa" aria-controls="painel-exame" aria-selected="false" tabindex="-1" data-exame="mapa"><span class="cod">MAPA</span>Pressão em 24 horas</button>
+        <button role="tab" id="aba-holter" aria-controls="painel-exame" aria-selected="false" tabindex="-1" data-exame="holter"><span class="cod">HOLTER</span>Ritmo em 24 horas</button>
+        <button role="tab" id="aba-eco" aria-controls="painel-exame" aria-selected="false" tabindex="-1" data-exame="eco"><span class="cod">ECO</span>Ecocardiograma</button>
+        <button role="tab" id="aba-doppler" aria-controls="painel-exame" aria-selected="false" tabindex="-1" data-exame="doppler"><span class="cod">DOPPLER</span>Carótidas e vertebrais</button>
+        <button role="tab" id="aba-ergo" aria-controls="painel-exame" aria-selected="false" tabindex="-1" data-exame="ergo"><span class="cod">ERGO</span>Teste ergométrico</button>
+      </div>
+
+      <div class="monitor__painel" id="painel-exame" role="tabpanel" aria-labelledby="aba-ecg" tabindex="0">
+        <div class="monitor__tela">
+          <div class="monitor__hud">
+            <span class="hud__cod" data-campo="cod">ECG</span>
+            <span class="hud__valor" data-campo="valor" aria-hidden="true"></span>
+          </div>
+          <canvas class="monitor__canvas" aria-hidden="true"></canvas>
+          <span class="monitor__nota">traçado ilustrativo</span>
+        </div>
+        <div class="monitor__info">
+          <h3 data-campo="nome">Eletrocardiograma</h3>
+          <p data-campo="desc">Registra a atividade elétrica do coração em poucos minutos, sem dor. Avalia ritmo e frequência e costuma ser o primeiro passo da avaliação cardiológica.</p>
+          <p class="monitor__quem" data-campo="quem">Realizado na clínica.</p>
+          <div class="monitor__equipe" data-campo="equipe"></div>
+          <a class="btn btn--menta" data-wa-exame href="https://wa.me/5548999364181" target="_blank" rel="noopener">Agendar este exame</a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="exames__lista-sem-js">
+      <li><b>Eletrocardiograma (ECG)</b> — atividade elétrica do coração em poucos minutos.</li>
+      <li><b>MAPA</b> — pressão arterial medida ao longo de 24 horas.</li>
+      <li><b>Holter 24h</b> — gravação contínua dos batimentos para identificar arritmias.</li>
+      <li><b>Ecocardiograma</b> — ultrassom do coração: estrutura, válvulas e função.</li>
+      <li><b>Doppler de carótidas e vertebrais</b> — fluxo de sangue nas artérias do pescoço.</li>
+      <li><b>Teste ergométrico em esteira</b> — o coração durante esforço controlado.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CORPO CLÍNICO -->
+<section class="equipe secao" id="corpo-clinico" aria-labelledby="equipe-titulo">
+  <div class="wrap">
+    <div class="equipe__topo">
+      <div>
+        <p class="eyebrow">Corpo clínico</p>
+        <h2 id="equipe-titulo" class="titulo mascara"><span>Oito cardiologistas.</span> <span><em>Um mesmo cuidado.</em></span></h2>
+      </div>
+      <div class="filtros" role="group" aria-label="Filtrar corpo clínico">
+        <button type="button" aria-pressed="true" data-filtro="todos">Todos</button>
+        <button type="button" aria-pressed="false" data-filtro="socio">Sócios</button>
+        <button type="button" aria-pressed="false" data-filtro="eco">Ecocardiograma</button>
+        <button type="button" aria-pressed="false" data-filtro="ergo">Teste ergométrico</button>
+        <button type="button" aria-pressed="false" data-filtro="holter">Holter</button>
+        <button type="button" aria-pressed="false" data-filtro="mapa">MAPA</button>
+      </div>
+    </div>
+
+    <ul class="medicos">
+      <li class="medico" data-id="marcia" data-tags="socio mapa">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/marcia-400.webp" srcset="assets/img/marcia-400.webp 400w, assets/img/marcia-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Sócia · Diretora técnica</span>
+          <span class="medico__nome">Dra. Marcia Regina Pereira</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 4253</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="ana-claudia" data-tags="socio holter">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/ana-claudia-400.webp" srcset="assets/img/ana-claudia-400.webp 400w, assets/img/ana-claudia-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Sócia</span>
+          <span class="medico__nome">Dra. Ana Claudia Duarte Rodrigues</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 9234</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="mauricio" data-tags="socio eco doppler">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/mauricio-400.webp" srcset="assets/img/mauricio-400.webp 400w, assets/img/mauricio-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Sócio · Ecocardiografista</span>
+          <span class="medico__nome">Dr. Maurício Pucineli Parada</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 18165</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="rafael" data-tags="socio">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/rafael-400.webp" srcset="assets/img/rafael-400.webp 400w, assets/img/rafael-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Sócio · Professor</span>
+          <span class="medico__nome">Dr. Rafael Lichtenfels Schmitz</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 12138</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="ricardo-wyse" data-tags="socio eco doppler">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/ricardo-wyse-400.webp" srcset="assets/img/ricardo-wyse-400.webp 400w, assets/img/ricardo-wyse-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Sócio · Ecocardiografia</span>
+          <span class="medico__nome">Dr. Ricardo Abrão Wyse</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 15048</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="felippe" data-tags="">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/felippe-400.webp" srcset="assets/img/felippe-400.webp 400w, assets/img/felippe-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Cardiologia clínica</span>
+          <span class="medico__nome">Dr. Felippe Fernandes Nascimento</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 24723</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="ricardo-pereira" data-tags="ergo">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/ricardo-pereira-400.webp" srcset="assets/img/ricardo-pereira-400.webp 400w, assets/img/ricardo-pereira-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Teste ergométrico</span>
+          <span class="medico__nome">Dr. Ricardo Pereira da Silva</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 16542</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+      <li class="medico" data-id="nathan" data-tags="ergo">
+        <button type="button" class="medico__btn" aria-haspopup="dialog">
+          <span class="medico__foto"><img src="assets/img/nathan-400.webp" srcset="assets/img/nathan-400.webp 400w, assets/img/nathan-720.webp 720w" sizes="(min-width: 960px) 22vw, 46vw" width="400" height="481" alt="" loading="lazy"></span>
+          <span class="medico__papel">Teste ergométrico</span>
+          <span class="medico__nome">Dr. Nathan de Farias Faraco</span>
+          <span class="medico__crm">Cardiologista · CRM/SC 13958</span>
+          <span class="medico__mais">Conhecer</span>
+        </button>
+      </li>
+    </ul>
+    <p class="filtro__vazio" hidden>Nenhum médico com esse filtro.</p>
+  </div>
+</section>
+
+<dialog class="ficha" aria-labelledby="ficha-nome">
+  <div class="ficha__in">
+    <button type="button" class="ficha__fechar" aria-label="Fechar">×</button>
+    <div class="ficha__foto"><img alt="" width="720" height="867"></div>
+    <div class="ficha__texto">
+      <p class="eyebrow" data-f="papel"></p>
+      <h3 id="ficha-nome" data-f="nome"></h3>
+      <p class="ficha__reg" data-f="reg"></p>
+      <div class="ficha__bio" data-f="bio"></div>
+      <a class="btn btn--verde" data-f="wa" href="https://wa.me/5548999364181" target="_blank" rel="noopener">Agendar consulta</a>
+    </div>
+  </div>
+</dialog>
+
+<!-- CONVÊNIOS -->
+<section class="convenios secao" id="convenios" aria-labelledby="conv-titulo">
+  <div class="wrap convenios__grid">
+    <div>
+      <p class="eyebrow">Convênios</p>
+      <h2 id="conv-titulo" class="titulo mascara"><span>Atendemos <em>particular</em></span> <span>e dez convênios.</span></h2>
+      <p class="lead">Também temos Clube de Benefícios. Na dúvida sobre cobertura, fale com a recepção antes do agendamento.</p>
+      <div class="levar">
+        <h3>No dia do exame, traga</h3>
+        <ol>
+          <li>Documento de identificação com foto</li>
+          <li>Carteirinha do convênio</li>
+          <li>Pedido médico original, assinado, carimbado e sem rasuras</li>
+        </ol>
+      </div>
+    </div>
+    <ul class="planos" aria-label="Convênios atendidos">
+      <li>Caixa</li><li>Unimed</li><li>Clinimed</li><li>GEAP Saúde</li><li>Elosaúde</li>
+      <li>Pladisa</li><li>Plano Conceição</li><li>SC Saúde</li><li>Cassi</li><li>Macroseg</li>
+    </ul>
+  </div>
+</section>
+
+<div class="divisor divisor--pedra" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path class="traco" data-ecg="1" d=""/></svg></div>
+
+<!-- CONTATO -->
+<section class="contato secao" id="contato" aria-labelledby="contato-titulo">
+  <div class="wrap contato__grid">
+    <div class="contato__dados">
+      <p class="eyebrow eyebrow--claro">Contato e localização</p>
+      <h2 id="contato-titulo" class="titulo titulo--claro mascara"><span>Venha nos</span> <span><em>visitar.</em></span></h2>
+      <address>
+        <p class="contato__end">R. Porto Alegre, 811 — Vila Moema<br>Ed. Bertoncini &amp; Don Braga<br>Tubarão/SC · 88705-200</p>
+        <a class="btn btn--linha" href="https://www.google.com.br/maps/place/R.+P%C3%B4rto+Alegre,+811+-+Vila+Moema,+Tubar%C3%A3o+-+SC,+88705-200/@-28.4731621,-48.9917402,17z" target="_blank" rel="noopener">Como chegar</a>
+      </address>
+      <dl class="contato__lista">
+        <div><dt>Horário</dt><dd>Segunda a sexta<br>08h às 12h · 13h30 às 18h</dd></div>
+        <div><dt>Telefone</dt><dd><a href="tel:+554836266800">48 3626-6800</a></dd></div>
+        <div><dt>WhatsApp</dt><dd><a data-wa="consulta" href="https://wa.me/5548999364181" target="_blank" rel="noopener">48 99936-4181</a></dd></div>
+        <div><dt>E-mail</dt><dd><a href="mailto:contato@esplendice.com.br">contato@esplendice.com.br</a></dd></div>
+      </dl>
+    </div>
+
+    <form class="form" id="form" novalidate>
+      <h3>Mande sua mensagem</h3>
+      <p class="form__nota">Ao enviar, abrimos o WhatsApp da clínica com a sua mensagem pronta.</p>
+      <div class="campo">
+        <label for="f-nome">Seu nome</label>
+        <input id="f-nome" name="nome" autocomplete="name" required>
+        <span class="campo__erro" id="e-nome"></span>
+      </div>
+      <div class="campo">
+        <label for="f-assunto">Assunto</label>
+        <select id="f-assunto" name="assunto">
+          <option>Agendar consulta</option>
+          <option>Agendar exame</option>
+          <option>Check-up</option>
+          <option>Convênios</option>
+          <option>Outro assunto</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="f-msg">Mensagem <span>(opcional)</span></label>
+        <textarea id="f-msg" name="mensagem" rows="3"></textarea>
+      </div>
+      <button class="btn btn--menta btn--cheio" type="submit">Abrir no WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape__in">
+    <img class="rodape__logo" src="assets/img/logo.webp" width="1081" height="184" alt="Esplêndice Clínica de Saúde" loading="lazy">
+    <nav aria-label="Redes sociais" class="rodape__redes">
+      <a href="https://www.instagram.com/esplendice/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100089770581822" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.youtube.com/channel/UCHw1KvpuEesGnLJMfGuALQw" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.tiktok.com/@esplendiceclinicadesaude" target="_blank" rel="noopener">TikTok</a>
+    </nav>
+    <p class="rodape__legal">Esplêndice Clínica de Saúde · Tubarão/SC · <a href="https://esplendice.com.br/?page_id=3" target="_blank" rel="noopener">Privacidade e proteção de dados</a></p>
+    <p class="rodape__previa">
+      <img src="assets/bruno.svg" alt="" width="22" height="30" aria-hidden="true">
+      Prévia conceitual de redesenho por Bruno Luque. Não é o site oficial da clínica.
+    </p>
+  </div>
+</footer>
+
+<a class="barra-wa" data-wa="consulta" href="https://wa.me/5548999364181" target="_blank" rel="noopener">
+  <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/></svg>
+  Agendar pelo WhatsApp
+</a>
+<img class="marca-bl" src="assets/bruno.svg" alt="" aria-hidden="true" width="26" height="36">
+
+<template id="bios">
+  <div data-id="marcia" data-reg="CRM/SC 4253 · RQE 1380" data-papel="Sócia · Cardiologista · Diretora técnica"><p>Formada em Medicina pela UFSC em 1986, concluiu formação em clínica médica, cardiologia e titulação em terapia intensiva, além de mestrado em Ciências da Saúde pela UFSC.</p><p>Foi professora de medicina da Unisul e diretora técnica e cardiologista do Hospital Socimed (atual Unimed). Hoje é cardiologista e diretora técnica da Multmed / Esplêndice, onde realiza consultas e laudos de MAPA.</p></div>
+  <div data-id="ana-claudia" data-reg="CRM/SC 9234 · RQE 6763" data-papel="Sócia · Cardiologista"><p>Formada em medicina pela Universidade Federal de Santa Catarina, atua como médica há 22 anos, 16 deles em cardiologia, com formação no Instituto de Cardiologia de Santa Catarina.</p><p>Na Esplêndice realiza consultas de cardiologia e é responsável pelo laudo do Holter, exame que monitora os batimentos para identificar arritmias.</p></div>
+  <div data-id="mauricio" data-reg="CRM/SC 18165 · RQE 10020 e 10096" data-papel="Sócio · Cardiologista · Ecocardiografista"><p>Natural de Rio Grande (RS), formado pela FURG, atua como médico há 19 anos. Fez residência em medicina interna e cardiologia na Santa Casa de Rio Grande e em ecocardiografia na UNIFESP. Título de especialista em cardiologia pela SBC.</p><p>Serviu na Marinha do Brasil como tenente médico. Atua em Tubarão desde 2012 e, na Esplêndice, realiza consultas e exames de imagem: ecocardiograma e Doppler de carótidas e vertebrais.</p></div>
+  <div data-id="rafael" data-reg="CRM/SC 12138 · RQE 8102 e 8103" data-papel="Sócio · Cardiologista"><p>Formado em medicina pela Unisul, atua como médico há 18 anos, 12 em cardiologia, com formação no Instituto de Cardiologia de Santa Catarina e especialização em medicina intensiva pela AMIB.</p><p>Professor de cardiologia na Unisul desde 2012.</p></div>
+  <div data-id="ricardo-wyse" data-reg="CRM/SC 15048 · RQE 7802" data-papel="Sócio · Cardiologista · Ecocardiografia"><p>Formado em medicina pela Universidade Federal do Rio Grande, especializou-se em cardiologia no Instituto de Cardiologia de Porto Alegre e atua como cardiologista há 14 anos.</p><p>Na Esplêndice realiza consultas de cardiologia, ecocardiograma e Doppler de carótida.</p></div>
+  <div data-id="felippe" data-reg="CRM/SC 24723 · RQE 23419" data-papel="Cardiologista"><p>Formado em medicina pela Unisul, em Tubarão, fez residência em Medicina Interna no Hospital Hans Dieter Schmidt (Joinville) e em Cardiologia no Instituto de Cardiologia de Santa Catarina (São José).</p><p>Atua em atendimento ambulatorial, de emergência e UTI. Na Esplêndice realiza consultas cardiológicas.</p></div>
+  <div data-id="ricardo-pereira" data-reg="CRM/SC 16542 · RQE 15015" data-papel="Cardiologista"><p>Formado em medicina pela Unisul, atua como médico há 13 anos e especializou-se em cardiologia no Hospital Hans Dieter Schmidt (Joinville/SC).</p><p>Na Esplêndice realiza consultas cardiológicas e teste ergométrico em esteira.</p></div>
+  <div data-id="nathan" data-reg="CRM/SC 13958 · RQE 11045 e 11252" data-papel="Cardiologista"><p>Formado em medicina pela Unisul, atua como médico há 16 anos, 11 em cardiologia, com formação no Hospital São Vicente de Paulo, em Passo Fundo (RS).</p><p>Na Esplêndice realiza consultas cardiológicas e teste ergométrico em esteira.</p></div>
+</template>
+
+<script src="app.js" defer></script>
+</body>
+</html>
